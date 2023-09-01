@@ -1,0 +1,55 @@
+Game:  
+
+Create a small platformer game where a player spawns at one end of the platform and reaches the  
+
+Other end (Finish Cup) avoiding obstacles(Saw).  
+
+ 
+
+Create an Environment which has following : 
+
+Player(Bule Man) 
+
+Background (Sky) 
+
+Some Background Elements (Non Interactable)( Brown Box) 
+
+Some Obstruction (Interactable)(Saw, Invisible Area) 
+
+Finish (Finish Cup) 
+
+ 
+
+ 
+
+Player should have ability to move right left and Jump. Include respective Animations for the same which is provided in Asset folder. 
+
+ 
+
+Environment should be Single level Platform Game  which consist of other background elements and some foreground elements which should be Interactable(Player cannot pass through it until it jump). Include Animations for the obstacles which is provided in Asset folder. 
+
+ 
+
+ 
+ 
+ Feature:  
+
+ 
+
+Create a Intro Scene which has resizable Banner according to screen size  and has a welcome text and a button on whose press we can enter Game Scene.  
+
+ 
+
+Create HUD element in the Game Scene which shows Player health on to of screen (need not to be showing actual value)  
+
+ 
+
+Create an obstacle where player becomes invisible (by using Masking technique) as player cross through that area.  
+
+ 
+
+Create a confetti like Particle System and activate it once the Player reaches the Finish Cup placed at other end of platform.  
+
+ 
+
+Create an animation for spiked ball with fixed path of motion, Grows and shrink, Rotates and changes color 
